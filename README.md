@@ -20,7 +20,6 @@
 - [Formatting](#formatting)
 - [Additional Info:](#additional-info)
   - [Let's talk about what "Official" means](#lets-talk-about-what-official-means)
-  - [Summary](#summary)
 - [Thank you!](#thank-you)
 
 
@@ -237,9 +236,5 @@ So, then you have two options:
 
 1. Download from NPM and have your codebase have dependencies foreign to foundry
 2. Download from the chainlink-brownie-contracts repo which already downloads from npm and then packages it nicely for you to use in foundry.
-## Summary
-1. That is an official repo maintained by the same org
-2. It downloads from the official release cycle `chainlink/contracts` use (npm) and packages it nicely for digestion from foundry.
-   
 
 # Thank you!
