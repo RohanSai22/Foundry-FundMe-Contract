@@ -41,8 +41,8 @@ This is a section of the Cyfrin Solidity Course.
 ## Quickstart
 
 ```
-git clone https://github.com/Cyfrin/foundry-fund-me-cu
-cd foundry-fund-me-cu
+git clone https://github.com/RohanSai22/Foundry-FundMe-Contract
+cd Foundry-FundMe-Contract
 make
 ```
 
@@ -126,11 +126,22 @@ Run the following:
 npx zksync-cli dev config
 ```
 
+If it doesn't work use this command instead
+
+```bash
+npm install zksync-cli
+```
+
 And select: `In memory node` and do not select any additional modules.
 
 Then run:
 ```bash
 npx zksync-cli dev start
+```
+If you used npm to install run the below command 
+
+```bash
+zksync-cli dev start
 ```
 
 And you'll get an output like:
@@ -143,6 +154,8 @@ In memory node started v0.1.0-alpha.22:
 ```
 
 ### Deploy to local zkSync node
+
+Organize the MakeFile as your requirement
 
 ```bash
 make deploy-zk
@@ -165,6 +178,8 @@ Optionally, add your `ETHERSCAN_API_KEY` if you want to verify your contract on 
 2. Get testnet ETH
 
 Head over to [faucets.chain.link](https://faucets.chain.link/) and get some testnet ETH. You should see the ETH show up in your metamask.
+
+You can try the Google Cloud Faucet as well [cloud.google.com/application/web3/faucet](https://cloud.google.com/application/web3/faucet) and get the testnet ETH.
 
 3. Deploy
 
